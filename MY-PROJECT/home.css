@@ -1,0 +1,573 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 8rem;
+    margin-left: 4rem;
+}
+
+.nav a {
+    margin-right: 4rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+.nav a:hover {
+    color: rgb(3, 28, 187);
+    background-color:rgb(208, 66, 5) ;
+    padding: 5px 2px;
+    color: white;
+    border-radius: 4px;
+}
+
+.nav a button {
+    border: none;
+    background-color: rgb(208, 66, 5);
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 4px;
+}
+
+.main-img {
+    width: 90%;
+    margin-left: 6rem;
+    border-radius: 8px;
+}
+
+
+/* ********************************************************************************************************* */
+
+.des {
+    position: absolute;
+    top: 30rem;
+    left: 70rem;
+}
+
+.des p {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 0.25rem;
+    color: rgb(249, 247, 247);
+}
+
+/* ******************************************************************************************************** */
+
+.form {
+    background-color: rgb(39, 43, 83);
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 8rem;
+    border-radius: 5px;
+}
+
+.form p {
+    color: white;
+    margin-left: 3rem;
+    line-height: 0.0001;
+    font-size: 2rem;
+
+}
+
+#first-p {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+#second-p {
+    margin-top: 0;
+    margin-bottom: 0 ;
+    margin-left: 5rem;
+}
+
+.form input {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding: 5px 19px 5px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:rgb(39, 43, 83) ;
+    color: white;
+}
+
+.form button {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding: 6px 18px;
+    background-color: rgb(208, 66, 5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ********************************************************************************************************************** */
+
+.Realtor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 6rem;
+}
+
+.realtor-des {
+    margin-top: -5rem;
+    width: 40%;
+    background-color: rgb(255, 253, 255);
+}
+
+#Realtor-head {
+    color: rgb(35, 144, 246);
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+.realtor-img {
+    background-color: rgb(252, 251, 252);
+    height: 50rem;
+    width: 50rem;
+    border-radius: 50% 0 50% 50%;
+    margin-top: 6rem;
+}
+.Realtor-img-1 {
+    border-radius: 50%;
+    position: relative;
+    top: 12rem;
+    left: 8rem;
+}
+
+.Realtor-img-2 {
+    border-radius: 50%;
+    position: relative;
+    top: -2rem;
+    left: 10rem;
+}
+
+.Realtor-img-3 {
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    left: 31rem;
+}
+
+/* ***************************************************************************************** */
+
+
+
+.heading p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(35, 144, 246);
+}
+
+.line {
+    width: 9%;
+    background-color: rgb(35, 144, 246);
+    height: 5px;
+    margin-left: 43rem;
+}
+
+ .Choose-cards {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    width: 90%;
+    margin-left: 6rem;
+ }
+
+.choose-item {
+    width: 22rem;
+    margin-left: 4rem;
+}
+
+.choose-item i {
+    font-size: 2rem;
+    color: rgb(35, 144, 246);
+    background-color: rgba(35, 144, 246, 0.114);
+    padding: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 9rem;
+}
+
+#choose-item-head {
+    font-size: 1.5rem;
+    color: rgb(35, 144, 246);
+    margin-left: 7rem;
+}
+
+#choose-item-head-2 {
+    font-size: 1.5rem;
+    color: rgb(35, 144, 246);
+    margin-left: 8rem;
+}
+
+/* **********************************************************************************88 */
+.About-us {
+    width: 90%;
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.About-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About-imgs-1 {
+    height: 20rem;
+    width: 25rem;
+    position: relative;
+    top: -1rem;
+    left: 5rem;
+    z-index: 10rem;
+}
+.About-imgs-2 {
+    height: 25rem;
+    width: 30rem;
+    position: relative;
+    top: 11rem;
+    left: 2.5rem;
+    z-index: 10rem; 
+}
+.About-imgs-3 {
+    height: 15rem;
+    width: 25rem;
+    position: relative;
+    top: 16rem;
+    z-index: 10rem; 
+}
+
+.blank-1 {
+    background-color: blue;
+    height: 6rem;
+    width: 6rem;
+    position: relative;
+    top: -25rem;
+    left: 32rem;
+
+}
+.blank-2 {
+    background-color: rgb(95, 95, 249);
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    top: -30rem;
+    right: -65rem;
+    border-radius: 50%;
+    opacity: 0.3;
+
+}
+.blank-3 {
+    background-color: rgb(85, 85, 129);
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    top: -21rem;
+    left: 27rem;
+    opacity: 0.2;
+}
+
+.blank-4 {
+    height: 20rem;
+    width: 20rem;
+    background-color: rgba(165, 163, 163, 0.3);
+    position: relative;
+    top: -35rem;
+    border-radius: 50%;
+}
+
+.blank-5 { 
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(189, 187, 189);
+    position: relative;
+    top: -55rem;
+    left: 19rem;
+}
+
+
+/* ******************************************************************************************* */
+.About-info {
+    width: 50%;
+    margin-left: 25rem;
+    text-align: center;
+    margin-top: -30rem;
+}
+.About-info a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(35, 144, 246);
+    text-align: center;
+}
+
+.line-2 {
+    width: 7.5rem;
+    height: 4px;
+    background-color: rgb(35, 144, 246);
+    margin-left: 20rem;
+    align-items: center;
+}
+
+
+.about-btn {
+    font-size: 1.5rem;
+    padding: 5px 75px;
+    border: 0 0 0 5px  solid rgb(35, 144, 246) ;
+    background-color: white;
+    color: rgb(35, 144, 246);
+    cursor: pointer;
+}
+
+/* ********************************************************************************** */
+.Projects {
+    width: 90%;
+    height: 50rem;
+    margin-left: 6rem;
+    background-color: rgb(133, 133, 132, 0.2);
+}
+
+.project-info {
+    width: 50%;
+    margin-left: 25rem;
+    margin-top: 5cqw;
+}
+
+.project-head {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(35, 144, 246);
+    padding-top: 3rem;
+}
+
+.project-des {
+    text-align: center;
+}
+
+.project-cards {
+    margin-top: 5rem;
+}
+
+.card-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.item-img {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 5px;
+}
+
+.item {
+    box-shadow: 0 0 8px black;
+    border-radius: 5px;
+}
+.item-name {
+    font-size: 1.5rem;
+    color:rgb(35, 144, 246);
+    text-align: center;
+    font-family: 600;
+}
+
+.item-des {
+    text-align: center;
+}
+
+.item-btn {
+    font-size: 1.5rem;
+    background-color: rgb(208, 66, 5);
+    color: white;
+    padding: 3px 35px;
+    border-radius: 4px;
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+/* *********************************************************************** */
+
+.Clients {
+    width: 90%;
+    margin-left: 6rem;
+}
+
+.client-head {
+    font-size: 2rem;
+    color: rgb(35, 144, 246);
+    text-align: center;
+}
+
+.items-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    top: -2.5rem;
+}
+
+.items {
+    margin-top: 4rem;
+    background-color: white;
+    text-align: center;
+    width: 15rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(148, 147, 147);
+}
+.client-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.client-name {
+    font-size: 1.5rem;
+    color: rgb(35, 144, 246);
+}
+/* ********************************************************************************************************************** */
+
+
+
+.last-img-1 {
+    width: 100%;
+    height: 40rem;
+}
+
+.last-img p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: -25rem;
+    text-align: center;
+    line-height: 0.05rem;
+}
+
+.last-img button {
+    position: relative;
+    top: -20rem;
+    margin-left: 32rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 6rem;
+    color: rgb(35, 144, 246);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* *************************************************************************************************8 */
+
+.footer-nav {
+    height: 5rem;
+    background-color: rgb(21, 110, 193);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.footer-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 0.5rem;
+}
+
+.foot-nav {
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    margin-left: 3rem;
+}
+
+ .footer-second { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+.foot-nav-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    margin-right: 2rem;
+}
+
+.footer-second input {
+    font-size: 1.25rem;
+    padding: 5px 20px;
+    background-color: rgb(21, 110, 193);
+    border: 2px solid white;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-second button {
+    font-size: 1.25rem;
+    padding: 5px 10px;
+    color: rgb(21, 110, 193);
+    position: relative;
+    right: 0.5rem;
+    border-radius: 0 5px 5px 0;
+}
+
+/* ************************************************************************************************************ */
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left: 7rem;
+}
+
+.right {
+    margin-right: 7rem;
+}
+
+.right i{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+#copy {
+    font-size: 1rem;
+}
+
